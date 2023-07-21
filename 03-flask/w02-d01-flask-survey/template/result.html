@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+</head>
+<body>
+    <h1 class="h1"><u>Submitted Info</u></h1>
+    <h4 class="display4">Name: {{request.form["name"]}}</h4>
+    <h4 class="display4">Dojo Location: {{request.form["dojo_location"]}}</h4>
+    <h4 class="display4">Favorite Language: {{request.form["fav_language"]}}</h4>
+    <h4 class="display4">Comments: {{request.form["comments"]}}</h4>
+    <a href="/"><button type="button" class="btn btn-primary">go back</button></a>
+</body>
+</html>
